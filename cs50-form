@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>First Form Websites</title>
+    <style media="screen">
+      h1 {
+        color : blue;
+        text-align : center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>The Banner</h1>
+    <h2>What's News</h2>
+    <div class="">
+      <form class="" action="index.html" method="post">
+        <input type="text" name="Name" placeholder="Full Name" value="">
+        <input type="password" name="Password" value="" placeholder="Password">
+      </form>
+    </div>
+    <div class="">
+      <form class="" action="index.html" method="post">
+        <input type="radio" name="Red" value="red">
+      </form>
+    </div>
+  </body>
+</html>
