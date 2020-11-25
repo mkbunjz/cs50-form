@@ -14,16 +14,67 @@
   <body>
     <h1>The Banner</h1>
     <h2>What's News</h2>
-    <div class="">
       <form class="" action="index.html" method="post">
-        <input type="text" name="Name" placeholder="Full Name" value="">
-        <input type="password" name="Password" value="" placeholder="Password">
-      </form>
+    <div class="">
+
+        <input type="text" name="Name" placeholder="Full Name">
+        <input type="password" name="Password" placeholder="Password">
+
     </div>
     <div class="">
-      <form class="" action="index.html" method="post">
-        <input type="radio" name="Red" value="red">
-      </form>
+
+        <input type="radio" name="color" value="red"> Red
+        <input type="radio" name="color" value="blue"> Blue
+        <input type="radio" name="color" value="green"> Green
+        <input type="radio" name="color" value="Orange"> Orange
+        <input type="radio" name="color" value="other"> Other
+
     </div>
+    <div class="">
+
+        <input list="countries" name="country" placeholder="Country">
+          <datalist id = "countries">
+            <option value="Myanmar">
+              <option value="Korea">
+                <option value="China">
+                  <option value="Japan">
+                    <option value="US">
+                      <option value="UK">
+                        <option value="Thai">
+                          <option value="EU">
+                            <option value="NA">
+
+          </datalist>
+    </div>
+      </form>
+
+      <div class="">
+
+          <ol>
+              <li>  Name      </li>
+              <li>  Password  </li>
+              <li>  Color     </li>
+              <li>  country   </li>
+          </ol>
+
+      </div>
+      <div class="">
+        <table>
+          <thead>
+            <th>  Name      </th>
+            <th>  Password  </th>
+            <th>  Color     </th>
+            <th>  Country   </th>
+          </thead>
+          <tbody>
+              <tr> Han Tun Zaw  </tr>
+              <tr> 225600       </tr>
+              <tr> Red          </tr>
+              <tr> Korea        </tr>
+          </tbody>
+        </table>
+      </div>
+
   </body>
 </html>
+
